@@ -7,7 +7,7 @@ const TestimonialsSection = () => {
       name: "Sarah Johnson",
       company: "E-commerce Startup",
       rating: 5,
-      text: "Digital BrainVizo transformed our online presence completely. Their AI-driven approach increased our sales by 300% in just 4 months!",
+      text: "Ai Digital BrainVizo transformed our online presence completely. Their AI-driven approach increased our sales by 300% in just 4 months!",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=150&h=150&fit=crop&crop=face"
     },
     {

@@ -91,7 +91,7 @@ const CoursesSection = () => {
                   </div>
                   
                   <div className="text-center">
-                    <h6 className="text-xl font-bold text-gray-800 mb-1">Digital BrainVizo</h6>
+                    <h6 className="text-xl font-bold text-gray-800 mb-1">Ai Digital BrainVizo</h6>
                     <p className="text-sm text-gray-600 mb-4">Authorized Learning Partner</p>
                     <div className="border-t border-gray-400 pt-2">
                       <p className="text-xs text-gray-600">Director Signature</p>

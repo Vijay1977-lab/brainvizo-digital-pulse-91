@@ -16,7 +16,7 @@ const AboutSection = () => {
           {/* Content */}
           <div>
             <h2 className="text-5xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
-              About Digital BrainVizo
+              About Ai Digital BrainVizo
             </h2>
             
             <p className="text-xl text-gray-300 mb-6 leading-relaxed">

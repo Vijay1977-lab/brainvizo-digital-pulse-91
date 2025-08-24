@@ -21,7 +21,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <h1 className="text-3xl font-bold font-inter">
-              <span className="text-white">Digital</span>
+              <span className="text-white">Ai Digital</span>
               <span className="text-yellow-400"> BrainVizo</span>
             </h1>
           </div>

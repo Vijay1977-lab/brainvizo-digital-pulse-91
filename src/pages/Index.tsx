@@ -10,6 +10,7 @@ import TestimonialsSection from '../components/TestimonialsSection';
 import BlogSection from '../components/BlogSection';
 import AboutSection from '../components/AboutSection';
 import ContactSection from '../components/ContactSection';
+import Footer from '../components/Footer';
 
 const Index = () => {
   return (
@@ -24,6 +25,7 @@ const Index = () => {
       <BlogSection />
       <AboutSection />
       <ContactSection />
+      <Footer />
     </div>
   );
 };
