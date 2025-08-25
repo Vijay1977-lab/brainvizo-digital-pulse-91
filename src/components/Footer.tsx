@@ -107,43 +107,24 @@ const Footer = () => {
               </ul>
             </div>
 
-            {/* Newsletter & Social */}
+            {/* Social Media Only */}
             <div>
-              <h4 className="text-xl font-bold mb-6 text-yellow-400">Stay Connected</h4>
-              
-              {/* Newsletter */}
-              <div className="mb-8">
-                <p className="text-gray-300 mb-4">Subscribe to our newsletter for updates</p>
-                <div className="flex gap-2">
-                  <input 
-                    type="email" 
-                    placeholder="Your email"
-                    className="flex-1 px-4 py-2 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-yellow-400 transition-colors duration-300"
-                  />
-                  <button className="px-6 py-2 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-300 transition-colors duration-300">
-                    Subscribe
-                  </button>
-                </div>
-              </div>
-
-              {/* Social Media */}
-              <div>
-                <p className="text-gray-300 mb-4">Follow us on social media</p>
-                <div className="flex gap-4">
-                  {socialLinks.map((social) => {
-                    const Icon = social.icon;
-                    return (
-                      <a
-                        key={social.label}
-                        href={social.href}
-                        aria-label={social.label}
-                        className="w-12 h-12 bg-gray-800/50 rounded-full flex items-center justify-center text-gray-300 hover:text-yellow-400 hover:bg-yellow-400/10 transition-all duration-300 transform hover:scale-110 group"
-                      >
-                        <Icon className="w-5 h-5" />
-                      </a>
-                    );
-                  })}
-                </div>
+              <h4 className="text-xl font-bold mb-6 text-yellow-400">Follow Us</h4>
+              <p className="text-gray-300 mb-4">Connect with us on social media</p>
+              <div className="flex gap-4">
+                {socialLinks.map((social) => {
+                  const Icon = social.icon;
+                  return (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      aria-label={social.label}
+                      className="w-12 h-12 bg-gray-800/50 rounded-full flex items-center justify-center text-gray-300 hover:text-yellow-400 hover:bg-yellow-400/10 transition-all duration-300 transform hover:scale-110 group"
+                    >
+                      <Icon className="w-5 h-5" />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>

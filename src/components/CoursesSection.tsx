@@ -67,9 +67,9 @@ const CoursesSection = () => {
 
         {/* Certificate Section */}
         <div className="text-center">
-          <h3 className="text-3xl font-bold text-white mb-8">Industry-Recognized Certificate</h3>
-          <div className="max-w-4xl mx-auto bg-gradient-to-br from-gray-800/50 to-gray-900/30 backdrop-blur-sm border border-gray-500/20 rounded-3xl p-8 hover:border-gray-500/50 transition-all duration-500">
-            <div className="relative bg-gradient-to-br from-yellow-50 to-white p-12 rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500 overflow-hidden">
+          <h3 className="text-2xl font-bold text-white mb-6">Industry-Recognized Certificate</h3>
+          <div className="max-w-2xl mx-auto bg-gradient-to-br from-gray-800/50 to-gray-900/30 backdrop-blur-sm border border-gray-500/20 rounded-2xl p-4 hover:border-gray-500/50 transition-all duration-500">
+            <div className="relative bg-gradient-to-br from-yellow-50 to-white p-6 rounded-xl shadow-lg transform hover:scale-105 transition-transform duration-500 overflow-hidden">
               
               {/* Decorative flowing lines */}
               <div className="absolute top-0 left-0 w-32 h-32 opacity-20">
@@ -90,51 +90,51 @@ const CoursesSection = () => {
 
               <div className="relative z-10">
                 {/* Header */}
-                <div className="text-center mb-8">
-                  <h4 className="text-5xl font-bold text-gray-800 mb-3 tracking-widest">CERTIFICATE</h4>
-                  <p className="text-2xl text-yellow-600 font-semibold tracking-wide">OF COMPLETION</p>
-                  <p className="text-xl text-gray-700 mt-4 font-medium">Ai Digital Marketing Course</p>
+                <div className="text-center mb-4">
+                  <h4 className="text-3xl font-bold text-gray-800 mb-2 tracking-widest">CERTIFICATE</h4>
+                  <p className="text-lg text-yellow-600 font-semibold tracking-wide">OF COMPLETION</p>
+                  <p className="text-base text-gray-700 mt-2 font-medium">Ai Digital Marketing Course</p>
                 </div>
                 
                 {/* Recipient */}
-                <div className="text-center mb-8">
-                  <h5 className="text-4xl font-bold text-gray-800 mb-4">Mr Mridul</h5>
-                  <div className="w-24 h-0.5 bg-yellow-400 mx-auto mb-4"></div>
-                  <p className="text-gray-700 text-lg leading-relaxed max-w-2xl mx-auto">
+                <div className="text-center mb-4">
+                  <h5 className="text-2xl font-bold text-gray-800 mb-2">Mr Mridul</h5>
+                  <div className="w-16 h-0.5 bg-yellow-400 mx-auto mb-2"></div>
+                  <p className="text-gray-700 text-sm leading-relaxed">
                     This certificate is given to Mr Mridul<br/>
                     for completing his Ai Digital Marketing Course
                   </p>
                 </div>
 
                 {/* Bottom Section */}
-                <div className="flex justify-between items-end mt-12">
+                <div className="flex justify-between items-end mt-6">
                   <div className="text-left">
-                    <p className="text-yellow-600 font-semibold text-lg mb-2">Reg. ID - DMC1990</p>
+                    <p className="text-yellow-600 font-semibold text-sm">Reg. ID - DMC1990</p>
                   </div>
                   
                   {/* Gold Seal */}
                   <div className="flex-shrink-0">
-                    <div className="relative w-20 h-20 mx-auto mb-4">
-                      <div className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full shadow-lg"></div>
-                      <div className="absolute inset-2 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full"></div>
-                      <div className="absolute inset-4 bg-gradient-to-br from-yellow-200 to-yellow-400 rounded-full flex items-center justify-center">
-                        <div className="w-2 h-2 bg-yellow-600 rounded-full"></div>
+                    <div className="relative w-12 h-12 mx-auto">
+                      <div className="absolute inset-0 bg-gradient-to-br from-yellow-400 to-yellow-600 rounded-full shadow-md"></div>
+                      <div className="absolute inset-1 bg-gradient-to-br from-yellow-300 to-yellow-500 rounded-full"></div>
+                      <div className="absolute inset-2 bg-gradient-to-br from-yellow-200 to-yellow-400 rounded-full flex items-center justify-center">
+                        <div className="w-1 h-1 bg-yellow-600 rounded-full"></div>
                       </div>
                       {/* Seal ribbons */}
-                      <div className="absolute -bottom-3 left-1/2 transform -translate-x-1/2">
-                        <div className="w-1 h-8 bg-gradient-to-b from-yellow-400 to-yellow-600 transform rotate-12"></div>
-                        <div className="w-1 h-8 bg-gradient-to-b from-yellow-400 to-yellow-600 transform -rotate-12 -ml-1"></div>
+                      <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2">
+                        <div className="w-0.5 h-4 bg-gradient-to-b from-yellow-400 to-yellow-600 transform rotate-12"></div>
+                        <div className="w-0.5 h-4 bg-gradient-to-b from-yellow-400 to-yellow-600 transform -rotate-12 -ml-0.5"></div>
                       </div>
                     </div>
                   </div>
                   
                   {/* Signature */}
                   <div className="text-right">
-                    <div className="mb-2">
-                      <p className="text-2xl text-gray-700 font-script italic">Vijay Kumar</p>
-                      <div className="w-24 h-0.5 bg-gray-400 ml-auto"></div>
+                    <div className="mb-1">
+                      <p className="text-lg text-gray-700 font-script italic">Vijay Kumar</p>
+                      <div className="w-16 h-0.5 bg-gray-400 ml-auto"></div>
                     </div>
-                    <p className="text-yellow-600 font-semibold">Founder</p>
+                    <p className="text-yellow-600 font-semibold text-sm">Founder</p>
                   </div>
                 </div>
               </div>
