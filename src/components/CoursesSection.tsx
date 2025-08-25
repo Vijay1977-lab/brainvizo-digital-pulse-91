@@ -9,59 +9,101 @@ const CoursesSection = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 mb-16">
-          {/* 4-Month Professional Certification */}
+        <div className="grid lg:grid-cols-3 gap-8 mb-16">
+          {/* Digital Marketing Basic */}
           <div className="group bg-gradient-to-br from-gray-800/50 to-gray-900/30 backdrop-blur-sm border border-gray-500/20 rounded-3xl p-8 hover:border-gray-500/50 transition-all duration-500 hover:transform hover:scale-105">
-            <div className="text-center mb-8">
-              <h3 className="text-3xl font-bold text-white mb-4">4-Month Professional Certification</h3>
-              <p className="text-gray-300">Foundation to Advanced Marketing Skills</p>
-            </div>
-
-            <div className="space-y-4 mb-8">
-              <h4 className="text-xl font-semibold text-gray-200 mb-4">Course Highlights:</h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {['WordPress Development', 'Facebook Ads Management', 'Instagram Ads Strategy', 'YouTube Marketing', 'Canva Design', 'Google Business Profile', 'Drop Shipping', 'Content Creation'].map(skill => <div key={skill} className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
-                    <span className="text-gray-300">{skill}</span>
-                  </div>)}
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">Digital Marketing Basic</h3>
+              <div className="text-center mb-4">
+                <span className="text-gray-400 line-through text-lg">15000Rs</span>
+                <span className="text-white text-3xl font-bold ml-2">4999Rs</span>
               </div>
             </div>
 
-            <div className="text-center">
-              <div className="bg-gray-700/50 rounded-2xl p-4 mb-6">
-                <p className="text-gray-300">
-                  <strong className="text-white">Career Scope:</strong> Start your freelance journey, work with agencies, or launch your own brand.
-                </p>
-              </div>
-              <p className="text-gray-400 font-semibold">Includes Internship & Industry Certificate on Completion</p>
+            <div className="space-y-3 mb-8">
+              {['Website Development', 'Facebook Advertising', 'Video Editing Mastery', 'YouTube Marketing', 'Instagram Mastery', 'Canva Designing', 'Drop Shipping'].map(skill => 
+                <div key={skill} className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-300">{skill}</span>
+                </div>
+              )}
             </div>
+
+            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+              CHOOSE PLAN
+            </button>
           </div>
 
-          {/* 6-Month Advanced AI-Driven Program */}
+          {/* Digital Marketing Advance - Popular */}
+          <div className="group bg-gradient-to-br from-gray-800/50 to-gray-900/30 backdrop-blur-sm border border-blue-500/50 rounded-3xl p-8 hover:border-blue-500/70 transition-all duration-500 hover:transform hover:scale-105 relative">
+            <div className="absolute -top-3 right-4 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+              POPULAR
+            </div>
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">Digital Marketing Advance</h3>
+              <div className="text-center mb-4">
+                <span className="text-gray-400 line-through text-lg">25000Rs</span>
+                <span className="text-white text-3xl font-bold ml-2">9999Rs</span>
+              </div>
+            </div>
+
+            <div className="space-y-3 mb-8">
+              {['Search Engine Optimisation (SEO)', 'Google My Business (GMB)', 'Business Branding', 'Affiliate Marketing', 'Blogging Mastery', 'Funnel Creation', 'Google Ads'].map(skill => 
+                <div key={skill} className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-300">{skill}</span>
+                </div>
+              )}
+            </div>
+
+            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+              CHOOSE PLAN
+            </button>
+          </div>
+
+          {/* Digital Marketing Mastery */}
           <div className="group bg-gradient-to-br from-gray-800/50 to-gray-900/30 backdrop-blur-sm border border-gray-500/20 rounded-3xl p-8 hover:border-gray-500/50 transition-all duration-500 hover:transform hover:scale-105">
-            <div className="text-center mb-8">
-              <h3 className="text-3xl font-bold text-white mb-4">6-Month Advanced Ai-Driven Program</h3>
-              <p className="text-gray-300">Complete Digital Marketing Mastery</p>
-            </div>
-
-            <div className="space-y-4 mb-8">
-              <h4 className="text-xl font-semibold text-gray-200 mb-4">Advanced Skills:</h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {['SEO & Content Marketing', 'Google Ads & PPC', 'Marketing Automation', 'Email Marketing', 'Video Editing', 'Freelancing Business', 'WhatsApp Marketing'].map(skill => <div key={skill} className="flex items-center gap-3">
-                    <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
-                    <span className="text-gray-300">{skill}</span>
-                  </div>)}
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
+                </svg>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-2">Digital Marketing Mastery</h3>
+              <div className="text-center mb-4">
+                <span className="text-gray-400 line-through text-lg">35000Rs</span>
+                <span className="text-white text-3xl font-bold ml-2">14999Rs</span>
               </div>
             </div>
 
-            <div className="text-center">
-              <div className="bg-gray-700/50 rounded-2xl p-4 mb-6">
-                <p className="text-gray-300">
-                  <strong className="text-white">Career Scope:</strong> Lead marketing teams, start your agency, or become a marketing consultant.
-                </p>
-              </div>
-              <p className="text-gray-400 font-semibold">Includes Internship & Industry Certificate on Completion</p>
+            <div className="space-y-3 mb-8">
+              {['Instagram Mastery', 'Google Analytics', 'Course Creation', 'Email Marketing', 'Search Console', 'Studio Setup', 'Automation'].map(skill => 
+                <div key={skill} className="flex items-center gap-3">
+                  <svg className="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/>
+                  </svg>
+                  <span className="text-gray-300">{skill}</span>
+                </div>
+              )}
             </div>
+
+            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+              CHOOSE PLAN
+            </button>
           </div>
         </div>
 
