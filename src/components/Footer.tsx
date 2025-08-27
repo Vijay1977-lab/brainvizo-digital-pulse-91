@@ -65,11 +65,11 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors duration-300">
                   <Phone className="w-5 h-5 flex-shrink-0" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>8427170754</span>
                 </div>
                 <div className="flex items-center gap-3 text-gray-300 hover:text-yellow-400 transition-colors duration-300">
                   <MapPin className="w-5 h-5 flex-shrink-0" />
-                  <span>123 Digital Avenue, Tech City, TC 12345</span>
+                  <span>Giaspura Ludhiana - 141014</span>
                 </div>
               </div>
             </div>

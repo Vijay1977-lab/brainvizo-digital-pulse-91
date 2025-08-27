@@ -36,7 +36,7 @@ const CoursesSection = () => {
               )}
             </div>
 
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+            <button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
               CHOOSE PLAN
             </button>
           </div>
@@ -70,7 +70,7 @@ const CoursesSection = () => {
               )}
             </div>
 
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+            <button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
               CHOOSE PLAN
             </button>
           </div>
@@ -101,7 +101,7 @@ const CoursesSection = () => {
               )}
             </div>
 
-            <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
+            <button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 px-6 rounded-lg transition-colors duration-300">
               CHOOSE PLAN
             </button>
           </div>

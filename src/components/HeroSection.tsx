@@ -32,7 +32,7 @@ const HeroSection = () => {
           </h1>
           
           <p className={`text-xl md:text-2xl text-gray-300 mb-12 font-light font-inter transform transition-all duration-1500 delay-300 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-            Your Digital Growth Partner
+            Your Digital Business Growth Partner
           </p>
           
           <div className={`flex flex-col sm:flex-row gap-6 justify-center items-center transform transition-all duration-1500 delay-600 ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
