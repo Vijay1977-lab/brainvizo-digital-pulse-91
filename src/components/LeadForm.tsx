@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
 
 const LeadForm = () => {
   const [formData, setFormData] = useState({
@@ -26,8 +27,19 @@ const LeadForm = () => {
     setIsSubmitting(true);
 
     try {
-      // Here you can add Supabase integration to store the lead data
-      console.log('Lead form data:', formData);
+      // Save lead data to Supabase
+      const { error } = await supabase
+        .from('leads')
+        .insert({
+          first_name: formData.firstName,
+          last_name: formData.lastName,
+          email: formData.email,
+          mobile: formData.mobile
+        });
+
+      if (error) {
+        throw error;
+      }
       
       toast({
         title: "Thank you!",
