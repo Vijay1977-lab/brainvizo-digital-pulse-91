@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
+import LeadForm from '../components/LeadForm';
 import CoursesSection from '../components/CoursesSection';
 import ServicesSection from '../components/ServicesSection';
 import WhyChooseUsSection from '../components/WhyChooseUsSection';
@@ -17,6 +18,7 @@ const Index = () => {
     <div className="min-h-screen bg-black text-white overflow-x-hidden">
       <Header />
       <HeroSection />
+      <LeadForm />
       <CoursesSection />
       <ServicesSection />
       <WhyChooseUsSection />
