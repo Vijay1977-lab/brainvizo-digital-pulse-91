@@ -10,7 +10,7 @@ const Header = () => {
     { name: 'Blog', href: '#blog' },
     { name: 'Services', href: '#services' },
     { name: 'About us', href: 'https://digitalyaduvi.com/about-us/' },
-    { name: 'Contact us', href: '#contact' },
+    { name: 'Contact us', href: 'https://digitalyaduvi.com/contact-us/' },
     { name: 'Course Login', href: '#login' },
   ];
 
